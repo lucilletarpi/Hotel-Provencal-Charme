@@ -1,0 +1,63 @@
+body{
+    color: black;
+    font-family: 'Great Vibes', cursive;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.navBar{
+   background: #DBC7A5; 
+   border: solid 1px #ffffff;
+   font-size: 0.8em;
+}
+.navBarLink{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+}
+.active{
+    text-decoration: underline;
+    text-decoration-color: #ffff;
+    padding: 1em;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.presentation{ 
+    text-align: center;
+ }
+.presentationImg{
+    width: 20em;
+    border-radius: 5em;
+}
+.presentationLink{
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+footer{
+    background: #DBC7A5; 
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+    margin-left: 0;
+    color: #ffffff;
+}
+
+footer a{
+    color: #ffffff;
+}
+@media only screen and ( min-width: 768px){
+    .navBar{
+        font-size: 1em;
+    }
+}
