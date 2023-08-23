@@ -32,39 +32,18 @@ a{
     color: black;
     margin: 10px;
 }
-.presentation{ 
+h1{
     text-align: center;
- }
-.presentationImg{
+    font-size: 3em;
+}
+li{
+    list-style: none;
+}
+img{
     width: 20em;
-    border-radius: 5em;
-}
-.presentationLink{
-    text-decoration: underline;
-    font-weight: bold;
-    font-style: italic;
-}
-footer{
-    background: #DBC7A5; 
-    text-align: center;
+    border: solid 4px;
     padding: 1em;
-    margin-top: 1em;
-    margin-left: 0;
-    color: #ffffff;
 }
-
-footer a{
-    color: #ffffff;
-}
-@media only screen and ( min-width: 768px){
-
-    .navBar{
-        font-size: 1em;
-    }
-    .presentation{
-        font-size: 1.5em;
-    }
-    .presentationImg{
-        width: 35em;
-    }
+.img2{
+margin-left: 23em;
 }
